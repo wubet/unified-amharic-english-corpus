@@ -9,8 +9,9 @@ This corpus combine two smaller Amharic-English corpora that are publicly availa
 
 The main difference between the three subsets is their purpose in the training process. The training data is used to teach the algorithm how to recognize patterns in the data. The validation data is used to fine-tune the hyperparameters of the algorithm to prevent overfitting. The test data is used to test the performance of the algorithm on unseen data.
 
-In combining the two corpora, multiple redundant sentences are found that indicate they were compiled from the same sources. Redundant sentences are removed as much as possible. However, there are still a few redundant sentences that need to be removed in the future. In the Amharic sentences there are spelling errors, inconsistency in translation and lack of standards while translating. Due to time and resource limitation, I didn’t address those issues.
+The combined training dataset is 19K, while the test dataset is close to 3K. Necessary precautions were taken that the test dataset does not contain any identical sentences that are also present in the training dataset.
 
+In combining the two corpora mainly the training dataset, multiple redundant sentences are found that indicate they were compiled from the same sources. Redundant sentences are removed as much as possible. In the Amharic sentences there are spelling errors, inconsistency in translation and lack of standards while translating. Due to time and resource limitation, I did not address those issues.
 [^1]: [Amharic English Machine Translation Corpus] (https://github.com/adtsegaye/Amharic-English-Machine-Translation-Corpus)
 
 [^2]: [Data and Knowledge Engineering Group Amharic-English Parallel Corpus (ovgu.de)] (https://www.findke.ovgu.de/findke/en/Research/Data+Sets/Amharic_English+Parallel+Corpus-p-1144.html)

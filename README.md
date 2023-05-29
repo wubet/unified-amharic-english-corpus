@@ -12,6 +12,7 @@ The main difference between the three subsets is their purpose in the training p
 The combined training dataset is 19K, while the test dataset is close to 3K. Necessary precautions were taken that the test dataset does not contain any identical sentences that are also present in the training dataset.
 
 In combining the two corpora mainly the training dataset, multiple redundant sentences are found that indicate they were compiled from the same sources. Redundant sentences are removed as much as possible. In the Amharic sentences there are spelling errors, inconsistency in translation and lack of standards while translating. Due to time and resource limitation, I did not address those issues.
+
 [^1]: [Amharic English Machine Translation Corpus] (https://github.com/adtsegaye/Amharic-English-Machine-Translation-Corpus)
 
 [^2]: [Data and Knowledge Engineering Group Amharic-English Parallel Corpus (ovgu.de)] (https://www.findke.ovgu.de/findke/en/Research/Data+Sets/Amharic_English+Parallel+Corpus-p-1144.html)
